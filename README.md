@@ -2,6 +2,8 @@
 
 This image is for use with Heroku Docker CLI.
 
+***This repo is deprecated***. If you want to use Docker with Heroku see [Container Registry and Runtime](https://devcenter.heroku.com/articles/container-registry-and-runtime)
+
 ## Usage
 
 Your project must contain the following files:
