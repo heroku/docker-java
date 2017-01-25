@@ -3,7 +3,7 @@ FROM heroku/jvm
 
 # Install Maven
 ENV M2_HOME /app/.mvn
-RUN curl -s --retry 3 -L http://lang-jvm.s3.amazonaws.com/maven-3.3.3.tar.gz | tar xz -C /app
+RUN curl -s --retry 3 -L https://lang-jvm.s3.amazonaws.com/maven-3.3.3.tar.gz | tar xz -C /app
 RUN chmod +x /app/.maven/bin/mvn
 ENV M2_HOME /app/.maven
 ENV PATH /app/.maven/bin:$PATH
