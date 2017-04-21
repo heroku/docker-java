@@ -1,7 +1,7 @@
 This Docker image is **deprecated**.  
 
 The following [Heroku-curated stacks](https://devcenter.heroku.com/articles/stack) are available as Docker images:
-* [Heroku-16](https://hub.docker.com/r/heroku/heroku/), based on Ubunutu 16.04, but does not include the JDK.  
+* [Heroku-16](https://hub.docker.com/r/heroku/heroku/), based on Ubuntu 16.04, but does not include the JDK.  
 * [Cedar-14](https://hub.docker.com/r/heroku/cedar/), based on Ubuntu 14.04, and includes JDK 7.
 
 Learn more about developing with Docker and Heroku:
