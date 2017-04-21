@@ -1,8 +1,16 @@
+This Docker image is **deprecated**.  
+
+The following [Heroku-curated stacks](https://devcenter.heroku.com/articles/stack) are available as Docker images:
+* [Heroku-16](https://hub.docker.com/r/heroku/heroku/), based on Ubunutu 16.04, is 465mb but does not include the JVM.  
+* [Cedar-14](https://hub.docker.com/r/heroku/cedar/), based on Ubuntu 14.04, is 1.35gb and includes the JVM.
+
+Learn more about developing with Docker and Heroku:
+* Learn more about [local development with Docker Compose](https://devcenter.heroku.com/articles/local-development-with-docker-compose) 
+* Learn about [deploying your Docker images to Heroku](https://devcenter.heroku.com/articles/container-registry-and-runtime). 
+
 # Heroku Java Docker Image
 
 This image is for use with Heroku Docker CLI.
-
-***This repo is deprecated***. If you want to use Docker with Heroku see [Container Registry and Runtime](https://devcenter.heroku.com/articles/container-registry-and-runtime)
 
 ## Usage
 
